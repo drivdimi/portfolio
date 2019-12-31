@@ -582,11 +582,11 @@ a.dotted-link:hover {
 }
 
 .list ul li a {
-  color: #778492;
+  color: #000000;
 }
 
 .list ul li a:hover {
-  color: #49515a;
+  color: #000000;
 }
 
 /* Credits */
@@ -601,15 +601,15 @@ a.dotted-link:hover {
 }
 
 .credits ul li a {
-  color: #778492;
+  color: #000000;
 }
 
 .credits ul li a .svg-inline--fa {
-  color: #b0b7bf;
+  color: #000000;
 }
 
 .credits ul li a:hover {
-  color: #49515a;
+  color: #000000;
 }
 
 .credits .btn {
