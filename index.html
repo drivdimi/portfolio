@@ -20,13 +20,19 @@
     <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
     
     <!-- github calendar css -->
-    <link rel="stylesheet" href="assets/plugins/github-calendar/dist/github-calendar.css">
+    <link rel="stylesheet" href="/assets/plugins/github-calendar/dist/github-calendar.css">
     <!-- github activity css -->    
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
     <link rel="stylesheet" href="assets/plugins/github-activity/github-activity-0.1.5.min.css">
     
     <!-- Theme CSS -->  
     <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+	
+	<!-- GitHub Feed -->
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+	<link rel="stylesheet" href="assets/plugins/github-activity/github-activity-0.1.5.min.css">
+	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
+	<script type="text/javascript" src="assets/plugins/github-activity/github-activity-0.1.5.min.js">
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155225252-1"></script>
@@ -169,7 +175,7 @@ Back This project</a>
                                 <p><a class="more-link" href="https:///bootstrap-templates/resume/free-bootstrap4-resume-cv-template-for-developers-pillar/" target="_blank"><i class="fas fa-external-link-alt"></i>Download Now</a></p>
                             </div><!--//item-->
                             <div class="item">
-                                <h3 class="title"><a href="https:///bootstrap-templates/speciality/devblog-free-bootstrap-4-blog-template-for-developers/" target="_blank">DevBlog - Free Bootstrap 4 Blog Template for Developers</a> <span class="badge badge-theme">Free</span></h3>
+                                <h3 class="title"><a href="index.html" target="_blank">DevBlog - Free Bootstrap 4 Blog Template for Developers</a> <span class="badge badge-theme">Free</span></h3>
                                 <p class="summary">A brief description of the project. </p>
                                 <p><a class="more-link" href="https:///bootstrap-templates/speciality/devblog-free-bootstrap-4-blog-template-for-developers/" target="_blank"><i class="fas fa-external-link-alt"></i>Download Now</a></p>
                             </div><!--//item-->
@@ -228,6 +234,11 @@ Back This project</a>
                         </div><!--//ghfeed-->
                         
                     </div><!--//secton-inner-->
+					
+					<div id="feed">
+GitHubActivity.feed({ username: "drivdimi", selector: "#feed" });
+</div>
+					
                 </section><!--//section-->
             </div><!--//primary-->
             <div class="secondary col-lg-4 col-12">
