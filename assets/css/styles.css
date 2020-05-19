@@ -45,7 +45,7 @@ a:focus {
   -ms-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
   font-family: 'Montserrat', arial, sans-serif;
-  padding: 8px 16px;
+  padding: 8px 60px;
   font-weight: bold;
 }
 
@@ -123,8 +123,9 @@ a.dotted-link:hover {
 }
 
 .header .btn {
-  margin-top: 60px;
+  -margin-top: 60px;
   font-weight: bold;
+  padding: 60px 260px;
 }
 
 .header .profile-image {
@@ -433,6 +434,7 @@ a.dotted-link:hover {
 
 .skills .skillset .level-title .level-label {
   color: #ccd1d6;
+  color: #000000 !important;
   font-size: 14px;
   font-weight: 400;
   font-family: "Lato", arial, sans-serif;
